@@ -9,6 +9,8 @@ project(pdcurses)
 
 include_directories(${CMAKE_SOURCE_DIR})
 
+add_compile_definitions(_CRT_SECURE_NO_WARNINGS)
+
 add_subdirectory(pdcurses)
 add_subdirectory(wincon)
 add_subdirectory(demos)
