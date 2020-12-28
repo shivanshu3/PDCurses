@@ -444,7 +444,7 @@ void inputTest(WINDOW *win)
             wclrtoeol(win);
             wprintw(win, "Button %d: ", button);
 
-            if (MOUSE_MOVED)
+            if (PDC_MOUSE_MOVED_CHECK)
                 waddstr(win, "moved: ");
             else if (MOUSE_WHEEL_UP)
                 waddstr(win, "wheel up: ");

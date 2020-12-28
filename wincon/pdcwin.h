@@ -6,7 +6,7 @@
 
 #define WIN32_LEAN_AND_MEAN
 #include <windows.h>
-#undef MOUSE_MOVED
+#undef PDC_MOUSE_MOVED_CHECK
 #include <curspriv.h>
 
 #if defined(_MSC_VER) && !defined(_CRT_SECURE_NO_DEPRECATE)
