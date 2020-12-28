@@ -351,7 +351,7 @@ int nc_getmouse(MEVENT *event)
 
     if (PDC_MOUSE_WHEEL_UP_CHECK)
         bstate |= BUTTON4_PRESSED;
-    else if (MOUSE_WHEEL_DOWN)
+    else if (PDC_MOUSE_WHEEL_DOWN_CHECK)
         bstate |= BUTTON5_PRESSED;
 
     /* extra filter pass -- mainly for button modifiers */

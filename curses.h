@@ -192,7 +192,7 @@ typedef struct
 #define BUTTON_CHANGED(x)       (Mouse_status.changes & (1 << ((x) - 1)))
 #define BUTTON_STATUS(x)        (Mouse_status.button[(x) - 1])
 #define PDC_MOUSE_WHEEL_UP_CHECK          (Mouse_status.changes & PDC_MOUSE_WHEEL_UP)
-#define MOUSE_WHEEL_DOWN        (Mouse_status.changes & PDC_MOUSE_WHEEL_DOWN)
+#define PDC_MOUSE_WHEEL_DOWN_CHECK        (Mouse_status.changes & PDC_MOUSE_WHEEL_DOWN)
 #define MOUSE_WHEEL_LEFT        (Mouse_status.changes & PDC_MOUSE_WHEEL_LEFT)
 #define MOUSE_WHEEL_RIGHT       (Mouse_status.changes & PDC_MOUSE_WHEEL_RIGHT)
 
