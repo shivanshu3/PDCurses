@@ -446,7 +446,7 @@ void inputTest(WINDOW *win)
 
             if (PDC_MOUSE_MOVED_CHECK)
                 waddstr(win, "moved: ");
-            else if (MOUSE_WHEEL_UP)
+            else if (PDC_MOUSE_WHEEL_UP_CHECK)
                 waddstr(win, "wheel up: ");
             else if (MOUSE_WHEEL_DOWN)
                 waddstr(win, "wheel dn: ");

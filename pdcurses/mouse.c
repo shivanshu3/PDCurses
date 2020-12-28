@@ -349,7 +349,7 @@ int nc_getmouse(MEVENT *event)
         }
     }
 
-    if (MOUSE_WHEEL_UP)
+    if (PDC_MOUSE_WHEEL_UP_CHECK)
         bstate |= BUTTON4_PRESSED;
     else if (MOUSE_WHEEL_DOWN)
         bstate |= BUTTON5_PRESSED;
